@@ -1,3 +1,12 @@
+// An EventEmitter allows us to:
+
+// create events
+// listen for events
+// trigger events
+// remove listeners
+
+
+
 class EventEmitter {
     constructor() {
         this.events = {};
